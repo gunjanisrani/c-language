@@ -12,10 +12,9 @@ void main()
 }
 
 void fib(int n){
-    int t1,t2,next;
-    t1=0;
-    t2=1;
-    for(int i=1;i<=n;i++){
+    int t1=0,t2=1,next;
+    printf("0\t1\t");
+    for(int i=1;i<=n-2;i++){
         next=t1+t2;
         t1=t2;
         t2=next;

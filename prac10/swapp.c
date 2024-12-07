@@ -2,23 +2,21 @@
 pointers. */
 
 #include<stdio.h>
-void swap(int *a,int *b);
+void swap(int*,int*);
 int main(){
-    int a,b;
-    swap(&a,&b);
-}
-
-void swap(int a,int b){
     int a,b;
     printf("Enter first number");
     scanf("%d",&a);
     printf("Enter second number");
     scanf("%d",&b);
-    int *ptr=&a;
-    int *ptr2=&b;
-    a=(*ptr)+(*ptr2);
-    b=(*ptr)-(*ptr2);
-    a=(*ptr)-(*ptr2);
-    printf("After swapping first number is %d and second number is %d",a,b);
-    
+    swap(&a,&b);
+    printf("After swapping, first number is %d and second number is %d",a,b);
+    return 0;
+}
+
+void swap(int *x,int *y){
+    int temp;
+    temp= *x;
+    *x= *y;
+    *y= temp;  
 }
