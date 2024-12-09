@@ -1,3 +1,5 @@
+/* Q) Write a program in C to find the area of rectangle and square. */
+
 #include<stdio.h>
 int main(){
     int l,b,s;

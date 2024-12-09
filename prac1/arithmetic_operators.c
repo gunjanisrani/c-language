@@ -1,3 +1,6 @@
+/* Q) Write a program in c to accept 2 floating point numbers and perform addition,
+subtraction,multiplication and division. */
+
 #include<stdio.h>
 int main(){
     float a,b;

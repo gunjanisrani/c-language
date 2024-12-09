@@ -1,3 +1,6 @@
+/* Q) Write a program in c to accept distance and time from the user and calculate the
+ speed of the vehicle. */
+
 #include<stdio.h>
 int main(){
     int d,s,t;

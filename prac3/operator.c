@@ -1,3 +1,6 @@
+/* Q) Accept 2 integer nos from user and an operator (+,-,*,/) ,perform the operation and 
+print the result. */
+
 #include<stdio.h>
 
 int main() {

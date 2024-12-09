@@ -1,3 +1,9 @@
+/* Q)Write a program in C to accept marks of any five subjects and calculate the total and 
+percentage and display the grade accordingly. If the percentage is greater than or equal to 
+90 then print grade A. If the percentage is greater than or equal to 80 then print grade B. 
+If the percentage is greater than or equal to 70 then print grade C.If the percentage is greater 
+than or equal to 60 then print grade D; or else print Grade F. */
+
 #include<stdio.h>
 int main(){
     int a,b,c,d,e,p,total;

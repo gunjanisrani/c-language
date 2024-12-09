@@ -1,3 +1,6 @@
+/* Q)Write a program in c to  accept a number from the user and check whether it is positive, 
+negative or zero, use else if ladder. */
+
 #include<stdio.h>
 int main(){
     int a;

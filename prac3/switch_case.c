@@ -1,3 +1,5 @@
+/* Q) Write a program in c to accept a number and print the day name using switch case. */
+
 #include<stdio.h>
 int main(){
     int num;

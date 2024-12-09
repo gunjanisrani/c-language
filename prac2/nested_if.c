@@ -1,3 +1,5 @@
+/* Q) Write a program in C to find the greatest number among 3 using nested if. */
+
 #include<stdio.h>
 int main(){
     int a,b,c;

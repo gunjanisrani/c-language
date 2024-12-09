@@ -1,3 +1,6 @@
+/* Q.Write a program in C to read any month number and display the number of days for that 
+month using switch case. */
+
 #include<stdio.h>
 int main(){
     int n;

@@ -1,3 +1,6 @@
+/* Q)Write a program in C to accept 2 numbers from the user and perform the swapping 
+of 2 numbers using 2 variables.*/
+
 #include<stdio.h>
 int main(){
     int a,b;
